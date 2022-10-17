@@ -20,8 +20,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         do{
             try juegos = context.fetch(Juego.fetchRequest())
+            tableView.reloadData()
         }catch{
         }
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let juego = juegos[indexPath.row]
+        performSegue(withIdentifier: "juegoSegue", sender: juego)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let siguienteVC = segue.destination as! JuegosViewController
+        siguienteVC.juego = sender as? Juego
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return juegos.count
