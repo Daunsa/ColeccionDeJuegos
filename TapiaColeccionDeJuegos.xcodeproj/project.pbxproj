@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8E1A89F28FDE0E800090B21 /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A89E28FDE0E800090B21 /* JuegosViewController.swift */; };
 		E8FFDF1128FDD80000DF1576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFDF1028FDD80000DF1576 /* AppDelegate.swift */; };
 		E8FFDF1328FDD80000DF1576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFDF1228FDD80000DF1576 /* SceneDelegate.swift */; };
 		E8FFDF1528FDD80000DF1576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFDF1428FDD80000DF1576 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8E1A89E28FDE0E800090B21 /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 		E8FFDF0D28FDD80000DF1576 /* TapiaColeccionDeJuegos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapiaColeccionDeJuegos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FFDF1028FDD80000DF1576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FFDF1228FDD80000DF1576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				E8FFDF1228FDD80000DF1576 /* SceneDelegate.swift */,
 				E8FFDF1428FDD80000DF1576 /* ViewController.swift */,
 				E8FFDF1628FDD80000DF1576 /* Main.storyboard */,
+				E8E1A89E28FDE0E800090B21 /* JuegosViewController.swift */,
 				E8FFDF1C28FDD80500DF1576 /* Assets.xcassets */,
 				E8FFDF1E28FDD80500DF1576 /* LaunchScreen.storyboard */,
 				E8FFDF2128FDD80500DF1576 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E1A89F28FDE0E800090B21 /* JuegosViewController.swift in Sources */,
 				E8FFDF1528FDD80000DF1576 /* ViewController.swift in Sources */,
 				E8FFDF1128FDD80000DF1576 /* AppDelegate.swift in Sources */,
 				E8FFDF1328FDD80000DF1576 /* SceneDelegate.swift in Sources */,
